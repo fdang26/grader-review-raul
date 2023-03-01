@@ -28,6 +28,6 @@ then
     echo '4/4'
 else
     RESULTS=`grep "Tests:" junitOutput.txt`
-    COUNTER=${RESULTS:25:1}
+    COUNTER=$RESULTS
     echo "Score: $COUNTER/4 "
 fi
