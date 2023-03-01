@@ -27,7 +27,5 @@ then
     echo 'You passed all the tests'
     echo '4/4'
 else
-    RESULTS=`grep "Tests:" junitOutput.txt`
-    COUNTER=$RESULTS
-    echo "Score: $COUNTER/4 "
+    echo "Test Failed"
 fi
